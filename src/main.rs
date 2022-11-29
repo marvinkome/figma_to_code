@@ -1,5 +1,7 @@
+mod api;
+
 use dotenv::dotenv;
-use figma_to_code::figma::Figma;
+use api::Figma;
 
 #[tokio::main]
 async fn main() {
